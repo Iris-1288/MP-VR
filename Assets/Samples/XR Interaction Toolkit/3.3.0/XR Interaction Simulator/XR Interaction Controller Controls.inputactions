@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "XR Interaction Controller Controls",
     "maps": [
         {
@@ -117,6 +118,24 @@
                     "name": "Secondary Touch",
                     "type": "Button",
                     "id": "613de0bf-5bc1-4b53-a4b8-0ae20fb87272",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftJump",
+                    "type": "Button",
+                    "id": "a27b4d86-4b8c-4485-a17e-c9dab641e3a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightJump",
+                    "type": "Button",
+                    "id": "1e4fe49d-2fc1-453d-9929-b725ff309c82",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -407,6 +426,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Secondary Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb9341e1-bda8-44f5-9b2e-6140f96c4f5c",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "880db98c-8d66-4ed8-98cc-fa2c9857bef2",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightJump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
